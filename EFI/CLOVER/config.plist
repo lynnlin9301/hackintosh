@@ -186,17 +186,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>#MCFG</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<true/>
 		<key>SSDT</key>
@@ -217,23 +206,25 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall debug=0x100 -disablegfxfirmware darkwake=8</string>
+		<string>-lilubetaall</string>
 		<key>CustomLogo</key>
 		<false/>
+		<key>DefaultLoader</key>
+		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
-		<key>Fast</key>
-		<true/>
-		<key>Legacy</key>
-		<string>PBR</string>
+		<string>mac</string>
+		<key>HibernationFixup</key>
+		<false/>
 		<key>Log</key>
 		<false/>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -339,16 +330,14 @@
 		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
-			<key>Enabled</key>
-			<false/>
+			<key>Speed</key>
+			<integer>8</integer>
 		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<true/>
-			<key>Linux</key>
 			<true/>
 			<key>Tool</key>
 			<true/>
