@@ -1,6 +1,6 @@
 ## 致谢 
 
-感谢 [github项目Hackintosh](https://github.com/daliansky/Hackintosh) ，感谢[黑锅小兵交流群（博客？）](https://blog.daliansky.net)，感谢[youngle316分享的EFI项目](https://github.com/youngle316/ASRock-Z370M-ITX-AC)。
+感谢 [github项目Hackintosh](https://github.com/daliansky/Hackintosh) ，感谢[黑果小兵交流群（博客？）](https://blog.daliansky.net)，感谢[youngle316分享的EFI项目](https://github.com/youngle316/ASRock-Z370M-ITX-AC)。
 
 
 感谢在这过程中帮助过我的朋友。
@@ -98,4 +98,4 @@
 	- 请注意，我是用蓝牙连接的鼠标键盘，没有预留 USB 的内建 （internal）
 	- 如果需要自己修改定制，请参阅：[Hackintool(原Intel FB-Patcher)使用教程及插入姿势](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html) 中定制 USB 的内容。
 6. 睡眠自动唤醒问题
-	- 装了这个 hackintosh 我存在3小时自动唤醒的问题。然后我改了很多很多东西。包括 DSDT ，sleepwatcher，修改 IO 文件。最后发现，网线换个网口就好了= = ，请用靠近音频线的那个网口。（这个主板双网口）
+	- 装了这个 hackintosh 我存在3小时自动唤醒的问题。然后我改了很多很多东西。包括 DSDT ，sleepwatcher，修改 IO 文件。最后发现，网线换个网口就好了= = ，请用靠近音频线的那个网口，准确的来说，是用 en0 对应的那个网口。（这个主板双网口）
