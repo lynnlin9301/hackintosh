@@ -1,3 +1,10 @@
+## 说明
+后续本人将改用 Mac M1 + Linux 作为使用
+该项目维护至 macOS Catalina 版本：10.15.7 (19H2)
+不考虑迁移至 OC 。
+
+PS： 原 10.15.2 其实可以系统内部升级到 10.15.7 (19H2) ，但是会丢失核显+独显，开启硬解。update_10.15.7 就是解决了这一个东西。
+
 ## 致谢 
 
 感谢 [github项目Hackintosh](https://github.com/daliansky/Hackintosh) ，感谢[黑果小兵交流群（博客？）](https://blog.daliansky.net)，感谢[youngle316分享的EFI项目](https://github.com/youngle316/ASRock-Z370M-ITX-AC)。
